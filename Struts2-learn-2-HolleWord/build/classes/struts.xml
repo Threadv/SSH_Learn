@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<package name="HellowWord" extends="struts-default">
+		<!-- 不包含/和拓展名 -->
+		<action name="product-input">
+			<result>/WEB-INF/pages/input.jsp</result>
+		</action>
+		<action name="product-save" class="cn.llanc.HolleWord.Product" method="save">
+			<result name="details">/WEB-INF/pages/details.jsp</result>
+		</action>
+	</package>
+
+</struts>
