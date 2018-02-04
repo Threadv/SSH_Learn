@@ -6,3 +6,6 @@ Struts2学习笔记项目
 
 1、Struts2-learn-1和Struts2-learn-2-HolleWord两个工程
 <a href = "https://llanc.cn/struts2-helloword.html"> Struts2的的HELLOWORD项目</a>
+
+2、Struts2-learn-3-GetWebResources
+<a href = "https://llanc.cn/access-web-resources-in-the-action-class.html"> Action类中访问Web资源</a>
