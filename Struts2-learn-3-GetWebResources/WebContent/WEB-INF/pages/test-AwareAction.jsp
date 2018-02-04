@@ -7,8 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>test-ActionContext-pages</h2>
+<h2>test-AwareAction-Page</h2>
 	application：${applicationScope.dateNew }
-
 </body>
 </html>

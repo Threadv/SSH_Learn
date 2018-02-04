@@ -7,8 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>test-ActionContext-pages</h2>
-	application：${applicationScope.dateNew }
-
+<h2>test-ServletAwareAction-Page</h2>
+	Session:${sessionScope.sessionKey}
 </body>
 </html>

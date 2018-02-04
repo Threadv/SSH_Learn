@@ -9,7 +9,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="TextActionContext.action?name=llanc">ActionContext</a>
+	<a href="TestActionContext.action?name=llanc">非耦合方式之：ActionContext</a><br>
+	<a href="TestAware.action?name=llanc">非耦合方式之：XxxAware接口</a><br>
+	<a href="TestServletActionContext.action?name=llanc">耦合方式之：ServletActionContext</a><br>
+	<a href="TestServletAware.action?name=llanc">耦合方式之：ServletXxxAware接口</a>
 	
 	<%
 		if(application.getAttribute("date")==null){

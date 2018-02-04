@@ -6,8 +6,17 @@
 <struts>
 
 	<package name="GetWebResources" extends="struts-default">
-		<action name="TextActionContext" class="cn.llanc.GetWebResources.TextActionContextAction">
-			<result name="">/WEB-INF/pages/test-ActionContext.jsp</result>
+		<action name="TestActionContext" class="cn.llanc.GetWebResources.TestActionContextAction">
+			<result>/WEB-INF/pages/test-ActionContext.jsp</result>
+		</action>
+		<action name="TestAware" class="cn.llanc.GetWebResources.TestAwareAction">
+			<result>/WEB-INF/pages/test-AwareAction.jsp</result>
+		</action>
+		<action name="TestServletActionContext" class="cn.llanc.GetWebResources.TestServletActionContextAction">
+			<result>/WEB-INF/pages/test-ServletActionContext.jsp</result>
+		</action>
+		<action name="TestServletAware" class="cn.llanc.GetWebResources.TestServletAwareAction">
+			<result>/WEB-INF/pages/test-ServletAware.jsp</result>
 		</action>
 	</package>
 
