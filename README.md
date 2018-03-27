@@ -9,3 +9,5 @@ Struts2学习笔记项目
 
 2、Struts2-learn-3-GetWebResources
 <a href = "https://llanc.cn/access-web-resources-in-the-action-class.html"> Action类中访问Web资源</a>
+3、Struts2-learn-4-Demo
+一个统计在线人数的小练习
