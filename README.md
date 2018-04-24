@@ -9,18 +9,22 @@ Struts2学习笔记
 1. Struts2-learn-1和Struts2-learn-2-HolleWord
 
 
-​	[Struts2的的HELLOWORD项目](https://llanc.cn/struts2-helloword.html)
+- [Struts2的的HELLOWORD项目](https://llanc.cn/struts2-helloword.html)
+
 
 2. Struts2-learn-3-GetWebResources
 
-		[Action类中访问Web资源](https://llanc.cn/access-web-resources-in-the-action-class.html)
+- [Action类中访问Web资源](https://llanc.cn/access-web-resources-in-the-action-class.html)
+
 
 3. Struts2-learn-4-Demo
 
-		[Struts2请求拓展名](https://llanc.cn/struts2-extension-name.html)
+- [Struts2请求拓展名](https://llanc.cn/struts2-extension-name.html)
+
 4. Struts2-learn-4-OGNL 
 
-		[访问值栈属性值 使用OGNL表达式和property标签](https://llanc.cn/access-valuestack-property-value.html)
+- [访问值栈属性值 使用OGNL表达式和property标签](https://llanc.cn/access-valuestack-property-value.html)
+
 
 # HibernateLearn
 
