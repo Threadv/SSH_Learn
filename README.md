@@ -6,18 +6,20 @@ Struts2学习笔记
 
 ## 本项目为学习 Struts2框架的学习笔记项目文件，学习笔记见我的博客：
 
-1、Struts2-learn-1和Struts2-learn-2-HolleWord两个工程
-&lt;a href = "https://llanc.cn/struts2-helloword.html"&gt; Struts2的的HELLOWORD项目&lt;/a&gt;
+1、Struts2-learn-1和Struts2-learn-2-HolleWord
+
+​	[Struts2的的HELLOWORD项目](https://llanc.cn/struts2-helloword.html)
 
 2、Struts2-learn-3-GetWebResources
-&lt;a href = "https://llanc.cn/access-web-resources-in-the-action-class.html"&gt; Action类中访问Web资源&lt;/a&gt;
+	[Action类中访问Web资源](https://llanc.cn/access-web-resources-in-the-action-class.html)
 
 3、Struts2-learn-4-Demo
-一个统计在线人数的小练习
-&lt;a href = "https://llanc.cn/struts2-extension-name.html"&gt;Struts2请求拓展名&lt;/a&gt;
 
-4、Struts2-learn-4-OGNL Struts2中OJNL的有关知识
-&lt;a href = "https://llanc.cn/access-valuestack-property-value.html"&gt;访问值栈属性值 使用OGNL表达式和property标签&lt;/a&gt;
+​	[Struts2请求拓展名](https://llanc.cn/struts2-extension-name.html)  一个统计在线人数的Demo
+
+4、Struts2-learn-4-OGNL 
+
+​	[访问值栈属性值 使用OGNL表达式和property标签](https://llanc.cn/access-valuestack-property-value.html)
 
 # HibernateLearn
 
