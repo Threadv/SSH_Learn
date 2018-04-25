@@ -26,6 +26,8 @@ Struts2学习笔记
 - [访问值栈属性值 使用OGNL表达式和property标签](https://llanc.cn/access-valuestack-property-value.html)
 
 
+5. Struts2-learn-5-Tags
+
 # HibernateLearn
 
 Hibernate学习笔记

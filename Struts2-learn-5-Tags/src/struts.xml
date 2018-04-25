@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<!-- struts常量 -->
+		<!-- struts2可接受的拓展名 -->
+	<constant name="struts.action.extension" value="action,do"></constant>
+		<!-- 打开静态方法调用 -->
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant>
+	
+	
+	<package name="Tags" extends="struts-default">
+		<action name="property" class="cn.llanc.bean.Product" method="execute">
+			<result name="success">/universal-tags.jsp</result>
+		</action>
+	</package>
+	
+	
+</struts>
