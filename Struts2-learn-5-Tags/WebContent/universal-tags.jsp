@@ -1,3 +1,4 @@
+<%@page import="cn.llanc.bean.ProductComparator"%>
 <%@page import="java.util.*"%>
 <%@page import="cn.llanc.bean.Product"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -7,7 +8,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>常用通用标签</title>
 </head>
 <body style="line-height: 30px">
 <s:debug></s:debug>
@@ -86,18 +87,52 @@ iterator标签：变量集合，将集合对象依次压入弹出值栈,status�
 <%
 	List<Product> product3=new ArrayList<Product>();
 	product3.add(new Product("iterator01",101));
-	product3.add(new Product("iterator02",102));
-	product3.add(new Product("iterator03",103));
-	product3.add(new Product("iterator04",104));
-	product3.add(new Product("iterator04",105));
+	product3.add(new Product("iterator03",102));
+	product3.add(new Product("iterator04",103));
+	product3.add(new Product("iterator05",104));
+	product3.add(new Product("iterator02",105));
 	session.setAttribute("iteratorTagTest", product3);
 %>
 <s:iterator value="#session.iteratorTagTest" status="status">
 index:${status.index}--count:${status.count}-----${name }---${price }<br>
 </s:iterator>
 <br>
+<hr>
+sort标签：对结合中的元素进行排序。
 <br>
+<%
+	List<Product> scorProduct=new ArrayList<Product>();
+	scorProduct.add(new Product("sort01",101));
+	scorProduct.add(new Product("sort03",102));
+	scorProduct.add(new Product("sort04",103));
+	scorProduct.add(new Product("sort05",104));
+	scorProduct.add(new Product("sort02",105));
+	session.setAttribute("ScorProduct", scorProduct);
+	/*比较器 */
+	ProductComparator comparator=new ProductComparator();
+	request.setAttribute("productComparator", comparator);
+%>
+<s:sort comparator="#request.productComparator" source="#attr.ScorProduct" var="SortTagTest">
+	<s:iterator value="#attr.SortTagTest">
+		${name }--${price }<br>
+	</s:iterator>
+</s:sort>
 <br>
+<hr>
+<%
+	session.setAttribute("newDate", new Date() );
+%>
+date标签：对Date对象进行格式化控制
+<s:date name="#session.newDate"  format="yyyy-MM-dd hh:mm:ss" var="newDate"/>
+${newDate }
 <br>
+<hr>
+a标签：生成超链接,属性进行强制OGNL解析
+<br>
+<s:iterator value="#attr.ScorProduct">
+	<!-- 使用%{ }将进行强制OGNL解析 -->
+	<s:a href="getProductName?name=%{name}">${name }</s:a>
+</s:iterator>
+
 </body>
 </html>
