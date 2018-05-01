@@ -4,15 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Demo</title>
 </head>
 <body>
-<h2>Tags-Index</h2>
-<hr>
-<a href="property.action?text=llanc">Universal Tags</a>
-<br>
-<a href="formTags.action">Form Tags</a>
-<br>
-<a href="demo.action">Demo</a>
+<a href="emp-input.action">input</a>
 </body>
 </html>

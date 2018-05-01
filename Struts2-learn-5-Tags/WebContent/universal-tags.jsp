@@ -133,6 +133,5 @@ a标签：生成超链接,属性进行强制OGNL解析
 	<!-- 使用%{ }将进行强制OGNL解析 -->
 	<s:a href="getProductName?name=%{name}">${name }</s:a>
 </s:iterator>
-
 </body>
 </html>

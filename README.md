@@ -2,7 +2,7 @@
 
 Struts2学习笔记
 
-## 本项目的开发环境为 Eclipes Jee Oxyge、Java1.8、Struts2.3与TomCat 9
+## 学习环境为 Eclipes Jee Oxyge、Java1.8、Struts2.3与TomCat 9
 
 ## 本项目为学习 Struts2框架的学习笔记项目文件，学习笔记见我的博客：
 
@@ -28,13 +28,16 @@ Struts2学习笔记
 
 5. Struts2-learn-5-Tags
 
+- [Struts2常用通用标签](https://llanc.cn/struts2-universal-tags.html)
+
+
+
 # HibernateLearn
 
 Hibernate学习笔记
 
-## 本项目的开发环境为 Eclipes Jee Oxyge、Java1.8、Hibernate5.0.11与TomCat 9
+## 学习环境为 Eclipes Jee Oxyge、Java1.8、Hibernate5.0.11与TomCat 9
 
 ## 本项目为学习 Struts2框架的学习笔记项目文件，学习笔记见我的博客：
 
-1、Hibernate_01_HolleWord
-Hibernate的HolleWord项目，体验一下Hibernate简单的数据库操作。
+1. Hibernate_01_HolleWord

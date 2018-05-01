@@ -7,12 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Tags-Index</h2>
-<hr>
-<a href="property.action?text=llanc">Universal Tags</a>
-<br>
-<a href="formTags.action">Form Tags</a>
-<br>
-<a href="demo.action">Demo</a>
+	Name:${name }
+	<br>
+	password:${password }
+	<br>
+	gender:${gender }
+	<br>
+	dept:${dept }
+	<br>
+	role:${role }
+	<br>
+	desc:${desc }
 </body>
 </html>
