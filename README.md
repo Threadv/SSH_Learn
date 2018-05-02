@@ -29,6 +29,7 @@ Struts2学习笔记
 5. Struts2-learn-5-Tags
 
 - [Struts2常用通用标签](https://llanc.cn/struts2-universal-tags.html)
+- [Struts2常用Form标签](https://llanc.cn/struts2-form-tags.html)
 
 
 
