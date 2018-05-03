@@ -7,13 +7,13 @@ import org.hibernate.cfg.Configuration;
 public class HbnUtils {
 	private static SessionFactory sessionFactory;
 	/*
-	 * 获取Session
+	 * 鑾峰彇Session
 	 */
 	public static Session getSession(){
 		return getSessionFactory().getCurrentSession();	
 	}
 	/*
-	 * 	获取SessionFactory
+	 * 	鑾峰彇SessionFactory
 	 */
 	public static SessionFactory getSessionFactory(){
 		if (sessionFactory == null || sessionFactory.isClosed()){

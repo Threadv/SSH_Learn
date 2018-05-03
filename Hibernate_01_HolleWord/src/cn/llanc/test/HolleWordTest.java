@@ -12,19 +12,19 @@ public class HolleWordTest {
 
 	@Test
 	public void test() {
-		//´´½¨Session
+		//åˆ›å»ºSession
 		Session session= HbnUtils.getSession();
 		try {
-			//¿ªÆôÊÂÎñ
+			//å¼€å§‹äº‹åŠ¡
 			session.beginTransaction();
-			//Ö´ĞĞ²Ù×÷
-			Student student=new Student("Ğ¡Ã÷",23,"ÄĞ");
+			//Ö´æ‰§è¡Œæ“ä½œ
+			Student student=new Student("å°æ˜",23,"ç”·");
 			session.save(student);
-			//Ìá½»ÊÂÎñ
+			//æäº¤äº‹åŠ¡
 			session.getTransaction().commit();
 		} catch (Exception e) {
 			e.printStackTrace();
-			//»Ø¹öÊÂÎñ
+			//å¼‚å¸¸å›æ»š
 			session.getTransaction().rollback();
 		}
 		

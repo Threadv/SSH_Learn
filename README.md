@@ -42,3 +42,6 @@ Hibernate学习笔记
 ## 本项目为学习 Struts2框架的学习笔记项目文件，学习笔记见我的博客：
 
 1. Hibernate_01_HolleWord
+
+- [Hibernate的HolleWord项目](https://llanc.cn/hibernate-holleword.html)
+
