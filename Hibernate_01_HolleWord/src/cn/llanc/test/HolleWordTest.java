@@ -26,9 +26,6 @@ public class HolleWordTest {
 			e.printStackTrace();
 			//异常回滚
 			session.getTransaction().rollback();
-		}
-		
-		
+		}	
 	}
-
 }

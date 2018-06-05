@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-5-23 19:37:11 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping package="cn.llanc.bean">
+
+    <class name="Order" table="ORDERS">
+
+        <id name="orderId" type="java.lang.Integer">
+            <column name="ORDER_ID" />
+            <generator class="native" />
+        </id>
+        <property name="orderName" type="java.lang.String">
+            <column name="ORDER_NAME" />
+        </property>
+        <!-- 多对一关联勇摄 -->
+        <many-to-one name="customer" class="Customer">
+            <column name="CUSTOMER_ID" />
+        </many-to-one>
+
+    </class>
+</hibernate-mapping>
