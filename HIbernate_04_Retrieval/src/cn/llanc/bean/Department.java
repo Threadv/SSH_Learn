@@ -24,5 +24,10 @@ public class Department {
 	public void setEmps(Set<Employee> emps) {
 		this.emps = emps;
 	}
+	@Override
+	public String toString() {
+		return "Department [id=" + id + ", name=" + name + "]";
+	}
+	
 	
 }

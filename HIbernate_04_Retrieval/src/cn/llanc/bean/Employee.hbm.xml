@@ -25,4 +25,6 @@
             <column name="DEPT_ID" /> <!-- 外键 字段名 -->
         </many-to-one>
     </class>
+    
+    <query name="selectEmpBySalary"><![CDATA[from Employee e where e.salary= :sal]]></query>
 </hibernate-mapping>

@@ -37,6 +37,22 @@ public class Employee {
 		this.dept = dept;
 	}
 	
+
+	public Employee() {
+		super();
+	}
+	public Employee(String name, String email, Department dept) {
+		super();
+		this.name = name;
+		this.email = email;
+		this.dept = dept;
+	}
+	
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + "]";
+	}
+	
 	
 
 }
