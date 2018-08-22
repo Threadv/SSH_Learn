@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="IndexHref" namespace="/" extends="struts-default">
+		<action name="toUploadTest">
+			<result>/Upload/upload.jsp</result>
+		</action>
+		<action name="toDownloadTest">
+			<result>/Upload/download.jsp</result>
+		</action>
+	</package>
+	<package name="FileUploadOrDownloadTest" namespace="/" extends="struts-default">
+		<action name="upload" class="cn.llanc.action.FileUploadAction"> 
+			<result name="success">/Upload/upload.jsp</result>
+		</action>
+		<action name="download" class="cn.llanc.action.FileDownloadAction">
+			<result type="stream">
+			</result>
+		</action>
+	</package>
+	
+</struts>
