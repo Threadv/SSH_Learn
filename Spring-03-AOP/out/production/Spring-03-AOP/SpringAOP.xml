@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <!--被增强的目标对象-->
+    <bean id="productDaoImpl" class="cn.llanc.demo1.ProductDaoImpl" />
+    <!--管理 切面类-->
+    <bean id="myAspectXml" class="cn.llanc.demo1.MyAspectXml" />
+    <!--配置对目标类的代理  proxy-target-class="true"基于类的代理将起作用（这时需要cglib库) proxy-target-class="fale"启用标准jdk代理-->
+    <aop:config proxy-target-class="true">
+        <!-- 切入点 表达式配置增强类中的需要增强的方法-->
+        <aop:pointcut id="product1" expression="execution(* cn.llanc.demo1.ProductDaoImpl.save(..))" />
+        <aop:pointcut id="product2" expression="execution(* cn.llanc.demo1.ProductDaoImpl.delete(..))"/>
+        <aop:pointcut id="product3" expression="execution(* cn.llanc.demo1.ProductDaoImpl.update(..))"/>
+        <aop:pointcut id="product4" expression="execution(* cn.llanc.demo1.ProductDaoImpl.find(..))"/>
+        <aop:pointcut id="product5" expression="execution(* cn.llanc.demo1.ProductDaoImpl.find(..))"/>
+        <!--配置切面-->
+        <aop:aspect ref="myAspectXml">
+            <!--前置通知 可以获得 切入点信息 -->
+            <aop:before method="checkPri" pointcut-ref="product1" />
+            <!--后置通知 可以接受返回值信息-->
+            <aop:after-returning method="printLog" pointcut-ref="product2" returning="result"/>
+            <!--环绕通知 可以截断源程序-->
+            <aop:around method="around"  pointcut-ref="product3" />
+            <!--异常抛出通知  可以获取异常-->
+            <aop:after-throwing method="afterThrowing" pointcut-ref="product4" throwing="ex" />
+            <!--最终通知 一定执行-->
+            <aop:after method="after" pointcut-ref="product5" />
+        </aop:aspect>
+    </aop:config>
+
+</beans>
