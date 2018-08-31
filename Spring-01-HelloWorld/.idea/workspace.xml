@@ -3,90 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a54836c5-54c4-44ad-bf90-7594ca29936e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/Spring_01_HelloWorld_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_01_HelloWorld_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-HelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-HelloWorld.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bean/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/SpringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/UserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/UserImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/.idea/artifacts/Spring_02_IocAnnotation_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/.idea/artifacts/Spring_02_IocAnnotation_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/Spring-02-IocAnnotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/Spring-02-IocAnnotation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/out/production/Spring-02-IocAnnotation/IocAnnotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/out/production/Spring-02-IocAnnotation/IocAnnotation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/IocAnnotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/IocAnnotation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo1/SpringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo1/SpringDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo1/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo1/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo1/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo1/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo1/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo1/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo1/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo1/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo2/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo2/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo2/SpringDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo2/SpringDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo3/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo3/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo3/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo3/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo3/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo3/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo3/SpringDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-02-IocAnnotation/src/cn/llanc/demo3/SpringDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-03-AOP/.idea/artifacts/Spring_03_AOP_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-03-AOP/.idea/artifacts/Spring_03_AOP_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-03-AOP/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-03-AOP/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-03-AOP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-03-AOP/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-03-AOP/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-03-AOP/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-03-AOP/Spring-03-AOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-03-AOP/Spring-03-AOP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-03-AOP/out/production/Spring-03-AOP/SpringAOP.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-03-AOP/out/production/Spring-03-AOP/SpringAOP.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-03-AOP/src/SpringAOP.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-03-AOP/src/SpringAOP.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-03-AOP/src/cn/llanc/demo1/MyAspectXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-03-AOP/src/cn/llanc/demo1/MyAspectXml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-03-AOP/src/cn/llanc/demo1/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-03-AOP/src/cn/llanc/demo1/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-03-AOP/src/cn/llanc/demo1/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-03-AOP/src/cn/llanc/demo1/ProductDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-03-AOP/src/cn/llanc/demo1/SpringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-03-AOP/src/cn/llanc/demo1/SpringDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-04-AopAnnotation/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-04-AopAnnotation/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-04-AopAnnotation/.idea/libraries/aspectjrt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-04-AopAnnotation/.idea/libraries/aspectjrt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-04-AopAnnotation/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-04-AopAnnotation/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-04-AopAnnotation/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-04-AopAnnotation/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-04-AopAnnotation/Spring-04-AopAnnotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-04-AopAnnotation/Spring-04-AopAnnotation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-04-AopAnnotation/out/production/Spring-04-AopAnnotation/AopAnnotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-04-AopAnnotation/out/production/Spring-04-AopAnnotation/AopAnnotation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-04-AopAnnotation/src/AopAnnotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-04-AopAnnotation/src/AopAnnotation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-04-AopAnnotation/src/cn/llanc/demo1/MyAspectAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-04-AopAnnotation/src/cn/llanc/demo1/MyAspectAnno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-04-AopAnnotation/src/cn/llanc/demo1/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-04-AopAnnotation/src/cn/llanc/demo1/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-04-AopAnnotation/src/cn/llanc/demo1/SpringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-04-AopAnnotation/src/cn/llanc/demo1/SpringDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/.idea/libraries/aspectjrt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/.idea/libraries/aspectjrt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/.idea/libraries/mysql_connector_java_5_1_44_bin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/.idea/libraries/mysql_connector_java_5_1_44_bin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/Spring-05-JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/Spring-05-JDBC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/out/production/Spring-05-JDBC/SpringJDBCTemplate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/out/production/Spring-05-JDBC/SpringJDBCTemplate.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/out/production/Spring-05-JDBC/TransferTest2SpringConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/out/production/Spring-05-JDBC/TransferTest2SpringConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/out/production/Spring-05-JDBC/TransferTest3SpringConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/out/production/Spring-05-JDBC/TransferTest3SpringConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/out/production/Spring-05-JDBC/TransferTestSpringConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/out/production/Spring-05-JDBC/TransferTestSpringConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/out/production/Spring-05-JDBC/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/out/production/Spring-05-JDBC/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/SpringJDBCTemplate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/SpringJDBCTemplate.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/TransferTest2SpringConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/TransferTest2SpringConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/TransferTest3SpringConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/TransferTest3SpringConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/TransferTestSpringConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/TransferTestSpringConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/bean/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/bean/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo1/SpringJDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo1/SpringJDBCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo2/SpringJDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo2/SpringJDBCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo3/TransferDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo3/TransferDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo3/TransferDaoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo3/TransferDaoInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo3/TransferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo3/TransferService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo3/TransferServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo3/TransferServiceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo3/TransferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo3/TransferTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo4/TransferDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo4/TransferDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo4/TransferDaoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo4/TransferDaoInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo4/TransferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo4/TransferService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo4/TransferServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo4/TransferServiceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo4/TransferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo4/TransferTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo5/TransferDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo5/TransferDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo5/TransferDaoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo5/TransferDaoInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo5/TransferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo5/TransferService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo5/TransferServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo5/TransferServiceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo5/TransferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/cn/llanc/demo5/TransferTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-05-JDBC/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-05-JDBC/src/jdbc.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,22 +17,23 @@
     <session id="-1135923250">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
           <entry key="JSP" value="1" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="441" />
+          <entry key="java" value="450" />
           <entry key="txt" value="6" />
           <entry key="xml" value="156" />
         </counts>
@@ -122,14 +41,14 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="441" />
+          <entry key="JAVA" value="450" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
           <entry key="jsp" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -137,7 +56,20 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bean/SpringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,9 +87,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/bean/UserInterface.java" />
-        <option value="$PROJECT_DIR$/src/bean/SpringTest.java" />
         <option value="$PROJECT_DIR$/src/bean/UserImpl.java" />
         <option value="$PROJECT_DIR$/src/ApplicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/bean/SpringTest.java" />
       </list>
     </option>
   </component>
@@ -167,9 +99,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.2" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="166" />
-    <option name="y" value="-11" />
+    <option name="x" value="-133" />
+    <option name="y" value="183" />
     <option name="width" value="1346" />
     <option name="height" value="698" />
   </component>
@@ -179,6 +118,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,36 +129,13 @@
             <path>
               <item name="Spring-01-HelloWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring-01-HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-01-HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-01-HelloWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-01-HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-01-HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-01-HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-01-HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-01-HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-01-HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -228,14 +145,14 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535082395290" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535454046560" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -322,6 +239,8 @@
       <workItem from="1532944242822" duration="2054000" />
       <workItem from="1533000082448" duration="4770000" />
       <workItem from="1535080629625" duration="1937000" />
+      <workItem from="1535422007431" duration="72000" />
+      <workItem from="1535452966928" duration="1085000" />
     </task>
     <task id="LOCAL-00001" summary="Spring">
       <created>1535081370112</created>
@@ -360,12 +279,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8761000" />
+    <option name="totallyTimeSpent" value="9918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -374,7 +294,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -443,8 +363,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bean/SpringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="414">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -510,7 +430,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

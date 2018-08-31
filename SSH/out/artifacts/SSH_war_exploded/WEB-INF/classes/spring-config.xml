@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+<!--配置Service-->
+    <!--       接口               实现类   把实现类赋值给了接口的实例-->
+    <bean id="userService" class="cn.llanc.ssh.service.impl.UserServiceImpl">
+        <property name="userDao" ref="userDao" />
+    </bean>
+
+<!--配置Dao-->
+    <bean id="userDao" class="cn.llanc.ssh.dao.Impl.UserDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+<!--配置Struts2的ction-->
+    <bean id="userAction" class="cn.llanc.ssh.web.action.UserAction">
+        <!--手动注入Service-->
+        <property name="userService" ref="userService"></property>
+    </bean>
+
+<!--配置Hibernate-->
+    <!--引入配置文件-->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+    <!--C3P0连接池-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driverClass}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+    <!--Hibernate SessionFactory-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <!--连接池-->
+        <property name="dataSource" ref="dataSource"/>
+        <!-- Hibernate的属性 -->
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+            </props>
+        </property>
+        <!-- 加载Hibernate映射文件 -->
+        <property name="mappingResources">
+            <list>
+                <value>cn/llanc/ssh/domain/User.hbm.xml</value>
+            </list>
+        </property>
+    </bean>
+    <!--Hibernate模板-->
+    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
+        <!--注入sessionFactory-->
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <!--配置Hibernate事务管理器-->
+    <bean id="hibernateTransactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <!--注入sessionFactory-->
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <!--开启注解事务-->
+    <tx:annotation-driven transaction-manager="hibernateTransactionManager"/>
+</beans>
